@@ -6,20 +6,33 @@ body {
 }
 </style>
 
-<style>
-        .image-container {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+        .container {
             display: flex;
             justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full viewport height */
+        }
+        .image-container {
+            display: flex;
             gap: 20px; /* Adds space between the images */
         }
         .image-container img {
-            width: 500px; /* Set the desired width */
-            height: 300px; /* Set the desired height */
+            width: 100px; /* Set the desired width */
+            height: 100px; /* Set the desired height */
             object-fit: cover; /* Ensures the images cover the dimensions without distortion */
-            margin-right: 10px; /* Adds space between the images */
         }
-</style>
-
+    </style>
+</head>
 <body>
     <div class="image-container">
       <p><a href="https://www.weddingwire.com/website/samuel-witte-and-luisa-lucie-smith">
@@ -30,4 +43,10 @@ body {
 </a></p>
     </div>
 </body>
+
+
+</html>
+
+
+
 
